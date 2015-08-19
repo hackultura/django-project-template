@@ -4,14 +4,8 @@
     "author_name": "Your Name",
     "email": "Your email",
     "description": "A short description of the project.",
-    "domain_name": "example.com",
     "version": "0.1.0",
     "timezone": "UTC",
-    "now": "2015/01/13",
-    "year": "{{ cookiecutter.now[:4] }}",
-    "use_whitenoise": "y",
-    "use_celery": "n",
-    "use_maildump": "n",
-    "use_sentry": "n",
-    "windows": "n"
+	"domain_name": "example.org",
+    "use_celery": "n"
 }
