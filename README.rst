@@ -6,8 +6,8 @@ Hackultura Project Template
      :alt: Requirements Status
 
 .. image:: https://travis-ci.org/hackultura/django-project-template.svg?branch=master
-     :target: https://travis-ci.org/hackultura/django-project-template?branch=master
-     :alt: Build Status
+    :target: https://travis-ci.org/hackultura/django-project-template
+    :alt: Build Status
 
 .. image:: https://badges.gitter.im/Join Chat.svg
    :target: https://gitter.im/hackultura/django-project-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
