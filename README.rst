@@ -126,21 +126,21 @@ Você agora pode executar os comandos padrão::
     $ python manage.py runserver
 
 
-**Live reloading and Sass CSS compilation**
+**Live reloading e compilação do SASS**
 
 If you'd like to take advantage of live reloading and Sass / Compass CSS compilation you can do so with the included Grunt task.
 
-Make sure that nodejs_ is installed. Then in the project root run::
+Com o nodejs_ instalado, execute o comando para instalar as dependências::
 
     $ npm install
 
 .. _nodejs: http://nodejs.org/download/
 
-Now you just need::
+Agora você precisa rodar::
 
     $ grunt serve
 
-The base app will now run as it would with the usual ``manage.py runserver`` but with live reloading and Sass compilation enabled.
+O projeto agora poderá rodar junto com o usual ``manage.py runserver``, mas com live reloading e compilação Sass habilitado.
 
 To get live reloading to work you'll probably need to install an `appropriate browser extension`_
 
