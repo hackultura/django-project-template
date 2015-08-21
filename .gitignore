@@ -29,3 +29,4 @@ sftp-config.json
 local_settings.py
 repo_name
 my_test_project/*
+.ropeproject

@@ -210,7 +210,12 @@ AUTHENTICATION_BACKENDS = (
 # Some really nice defaults
 ACCOUNT_AUTHENTICATION_METHOD = 'username'
 ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+# When set to “mandatory” the user is blocked from logging in until
+# the email address is verified. Choose “optional” or “none” to allow
+# logins with an unverified e-mail address. In case of “optional”,
+# the e-mail verification mail is still sent,
+# whereas in case of “none” no e-mail verification mails are sent.
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Custom user app defaults
 # Select the correct user model
